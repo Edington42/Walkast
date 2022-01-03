@@ -46,7 +46,7 @@ const App = function () {
         <>
           <h2>Available Users</h2>
           <ol>
-            {users.map((user, index) => (
+            {users.data.map((user, index) => (
               <li key={index}>
                 Name: {user.name} - Email: {user.email}
               </li>
